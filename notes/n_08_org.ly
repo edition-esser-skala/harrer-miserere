@@ -65,7 +65,7 @@ MiserereOrgano = {
 		b8 b, d
 		es f f,
 		b4 r8 %55
-		d\p es f
+		\mvTr d\p-\soloE es f
 		g r es
 		a4 f8
 		b, b' b,
@@ -115,12 +115,12 @@ MiserereOrgano = {
 		as4 g8
 		as b b, \noBreak
 		es4. \bar "||" %105
-		\time 4/4 \tempoNeProjicias es8\f es es es es es es es \noBreak
+		\time 4/4 \tempoNeProjicias \mvTr es8\f-\tuttiE es es es es es es es \noBreak
 		e e e e f f f f
 		c c c c f f es es
 		des des des des des des des des
 		c c c c f f, c' c, %110
-		f'4 r \tempoReddeMihi f8\p es d! b
+		f'4 r \tempoReddeMihi \mvTr f8\p-\soloE es d! b
 		es4 r8 es16 f g8 as b b,
 		es es' b as g( es) f( d)
 		es( c) d( b) g'( es) f( d)
@@ -139,12 +139,12 @@ MiserereOrgano = {
 		g8 g g g a a a a
 		b b b b h h h h
 		c c g g as! as fis fis
-		g g g g g8.\ff g16 g4 %130
+		g g g g \mvTrh g8.\ff-\tuttiE g16 g4 %130
 		r8 g g g c c, as' as,
 		b' b, g' g, as' as, b' b,
 		es es es es b b b h
 		c c c c g' g g, g
-		c4 r r8 c\p g' g, %135
+		c4 r r8 \mvTr c\p-\soloE g' g, %135
 		r c h g c4 r
 		r8 b d b es4 r
 		r8 g e d c(-. c-. c-. c-.)
@@ -156,13 +156,13 @@ MiserereOrgano = {
 		c, c b b a a f f
 		b b as as g g g g %145
 		c c g' g as! as fis fis
-		g g g, g c c[\ff c c]
+		g g g, g c \mvTrh c[\ff-\tuttiE c c]
 		d d d d es es es es
 		es es d d es es es es
 		c c c c b4 b8 b %150
 		b b a a b b' f d
 		b b h h c c g' g
-		as as f f g8.[ f16 es8 c]
+		as! as f f g8.[ f16 es8 c]
 		g'4 g, c r8 h
 		c4 r8 h c es g g, \noBreak %155
 		c4 r r2 \bar "||"
@@ -307,7 +307,7 @@ MiserereBassFigures = \figuremode {
 	<6 _!>4 <5 3>8 %70
 	<6 5> <5 _!> q
 	<9 5 3> <8 \t \t> <[6!] _!>
-	r <5! _+>4
+	<5! [4]>8 <[\t _+]>4
 	r8 <[5!]>4
 	r8 <5! _+>4 %75
 	r8 <5 3>4
@@ -317,7 +317,7 @@ MiserereBassFigures = \figuremode {
 	r <5! _+> <\t \t> %80
 	<6 3> <5 3> <[6]>
 	<5 _->4.
-	q8 <5! _+> <\t \t>
+	<5 [4]>16 <[\t _-]> <5! _+>8 <\t \t>
 	r4.
 	<5! _+> %85
 	<6 3>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
@@ -346,8 +346,8 @@ MiserereBassFigures = \figuremode {
 	<6 3>2 <6! 3>
 	<8 5 _!> <5 3>4 <5 _!> %110
 	r2 <5 3>8 <\t \t> <5 3> <7 3>
-	<4> <3> r4 <6 3>8 <5 3> <7 3> <\t \t>
-	<5 3>4 q8 <\t \t> <6 3> <\t \t> <4 3> <\t \t>
+	<4> <3> r8. <[6]>16 <6 3>8 <5 3> <7 3>4
+	<5 3> q8 <\t \t> <6 3> <\t \t> <4 3> <\t \t>
 	<5 3> <\t \t> <6 3> <\t \t> <6 3> <\t \t> <4 3> <\t \t>
 	<5 3> <\t \t> <6 3> <\t \t> <6 3>4. q8 %115
 	<6 4>4 <5 3> q4. <6! 5>8
@@ -366,29 +366,29 @@ MiserereBassFigures = \figuremode {
 	<5 3>4 <6 4>8 <5 _!> <6 5>4 <6 5 _!>
 	<5 _!>1 %130
 	r8 <\t \t>4. <5 3>4 <6 5>
-	<5 3> <6 5> <5 3> <7 5>
-	<5 3>2 q4. <6 5>8
-	r2 <6 4>4 <5 _!>
-	r2. <4>8 <_!> %135
+	<5 3> <6 5> <[6 3]> <7 5>
+	<5 3>2 <[7]>4. <[\t]>8
+	<[6 4]>4 <[5 3]> <6 4> <5 _!>
+	r2. <[6] 4>8 <[5] _!> %135
 	r <5 3> <6 3> <\t \t> r2
 	r8 <8 6> <5 3> <7 3> <9 4> <8 3> r4
 	r4 <6 5>8 <\t \t> <7 _!>2
 	<5 _->2 <5 _!>
 	<\t \t> <6 [_!]> %140
-	<[5 _-]>4 <5! _+> r <6>
-	<6 4> <[5!] _+> r2
+	<[5 _-]>4 <5! _+> r4 <6>8 <[6!]>
+	<6 4>4 <[5!] _+> r2
 	r2 <6 4>8 <5 _!>4.
 	<5 3>4 <\t \t> <6 5> <7 _!>
 	<5 3> <\t \t> <5 _!>2 %145
 	<5 3>4 <5 _-> <5 3> <6 5 _!>
 	<6 4> <5 _!> r2
-	<7>8 <6>4. <9>8 <8>4.
+	<7>8 <6>4 <[7]>8 <9> <8>4.
 	<5 4 2>4 <6 5 3> r2
 	<6! 3> <5 3> %150
 	<6 5 2>4 <6 5 3> r2
 	r4 <6 3> <5 3> <5 _!>
 	<5 3> q <5 [_!]>8. <\t \t>16 <6 3>4
-	<6 4> <5 _!> r4. <6 5>8
+	<6 4> <5 [4]>8 <[\t _!]> r4. <6 5>8
 	<5 3>4. <6 5>8 r <6> <7 5 _!>4 %155
 	r1
 	r4.

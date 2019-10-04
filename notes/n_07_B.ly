@@ -44,6 +44,56 @@ MiserereBassoNotes = {
 		\time 2/4 f2 \bar "|"
 		\time 3/8 \unset Staff.timeSignatureFraction \tempoAuditui
 			b,4 r8 \noBreak
+		R4.*33 %82
+		\mvTr d4.\pE^\soloE
+		b'
+		a %85
+		g8([ f)] es
+		d4 e8
+		f16.([ e32)] f8 f
+		b8. a16 b8
+		a f f %90
+		as4 as8
+		g4 es8
+		c'8. as16 as8
+		as( b4)\trill
+		es,4. %95
+		R4.*10 \bar "||" %105
+		\time 4/4 \tempoNeProjicias \mvTr es4\fE^\tuttiE es es es8 es \noBreak
+		e4 r8 e f4 f8 f
+		c c r c f f16 f es8 es
+		des?4 des8 des des8. des16 des8 des
+		c4 r8 c f8. f16 c8 c %110
+		f4 r \tempoReddeMihi r2
+		R1*8 %119
+		\mvTr d'4\pE^\soloE d8 d d4 d8 c %120
+		b4. a16 g c8 c, c' c16 b
+		a4. g16([ f)] b8 b, r b'16([ a)]
+		g4. f16([ g)] a8 a, a'8. g16
+		fis4. e16 d g8. g,16 g8 g'16([ f)]
+		es8 d16 c d4 g, r %125
+		R1*4
+		r2 \mvTrh g'8.\ffE^\tuttiE g16 g4 %130
+		r8 g g g c c as as
+		b b g g as as b b,
+		es4 es8 es b4 b8 h
+		c4 c g' g,
+		c r r2 %135
+		R1*6 %141
+		r2 r4 r8\mvTr b'\pE^\soloE
+		b4 b8 b c8. h16 h8 h
+		c c c c c c c b16([ a)]
+		b4 b, r8 h'16 h h8 h %145
+		c4 b as! fis8 fis
+		g4 g, c8 \mvTrh c\ffE^\tuttiE c c
+		d d d d es es es es
+		es4 d es r8 es
+		c4. c8 b4 b8 b %150
+		b4 a b b
+		r h8 h c4 g'
+		as! f8 f g8. f16 es8 c
+		g'4 g, c r
+		R1*2 \bar "||" %156 finis
 	}
 }
 
@@ -82,4 +132,53 @@ MiserereBassoLyrics = \lyricmode {
 	su -- per ni -- vem de -- al --
 	ba] --
 	bor.
+	
+	Cor %83
+	mun --
+	dum %85
+	cre -- a
+	in me,
+	De -- us, et
+	spi -- ri -- tum
+	re -- ctum in -- %90
+	no -- va
+	in vi --
+	sce -- ri -- bus
+	me --
+	is. %95
+	
+	[Ne pro -- ji -- ci -- as %106
+	me a fa -- ci -- e
+	tu -- a, et spi -- ri -- tum san -- ctum
+	tu -- um non au -- fe -- ras a
+	me, non au -- fe -- ras a %110
+	me.]
+	
+	Li -- be -- ra me de san -- %120
+	gui -- ni -- bus, De -- us, De -- us sa --
+	lu -- tis me -- ae, et
+	ex -- sul -- ta -- bit lin -- gua
+	me -- a iu -- sti -- ti -- am, iu --
+	sti -- ti -- am tu -- am. %125
+	
+	[Quo -- ni -- am %130
+	si vo -- lu -- iſ -- ses sa -- cri --
+	fi -- ci -- um, de -- diſ -- sem ut -- i --
+	que, ho -- lo -- cau -- stis non
+	de -- le -- cta -- be --
+	ris.]
+	
+	Be -- %142
+	ni -- gne fac, Do -- mi -- ne, in
+	bo -- na vo -- lun -- ta -- te tu -- a __
+	[Si -- on, ut ae -- di -- fi -- %145
+	cen -- tur mu -- ri Je --
+	ru -- sa -- lem. Tunc ac -- cep --
+	ta -- bis sa -- cri -- fi -- ci -- um iu --
+	sti -- ti -- ae, ob --
+	la -- ti -- o -- nes et %150
+	ho -- lo -- cau -- sta,
+	tunc im -- po -- nent
+	su -- per al -- ta -- re tu -- um
+	vi -- tu -- los.]
 }

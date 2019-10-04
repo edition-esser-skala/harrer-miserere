@@ -56,6 +56,56 @@ MiserereSopranoNotes = {
 		\time 2/4 c2 \bar "|"
 		\time 3/8 \unset Staff.timeSignatureFraction \tempoAuditui
 			b4 r8 \noBreak
+		R4.*23 %72
+		\mvTr a4.\pE^\soloE
+		f'
+		e %75
+		d8. c16 d8
+		\appoggiatura c4 b4.
+		a8 a b
+		c4 b8
+		b a d %80
+		d c16 b a g
+		es'!8 d c~
+		c16 b a4\trill
+		g4.
+		R4.*21 \bar "||" %105
+		\time 4/4 \tempoNeProjicias \mvTr b4\fE^\tuttiE b b b8 b \noBreak
+		c4 r8 c c4 c8 c
+		c c r c c c16 c c8 c
+		b4 b8 b h8. h16 h8 h
+		c4 r8 b as8. as16 g8. g16 %110
+		f4 r \tempoReddeMihi r2
+		R1*4 %115
+		r2 r4 r8 \mvTr g\pE^\soloE
+		c4 c8 c d4 d
+		es4. es8 d16([ c)] b8 r d
+		d4 c16([ b)] a g fis4 g
+		a b8 a16([ g)] a8 d, r4 %120
+		R1*9 %129
+		r2 \mvTrh h'8.\ffE^\tuttiE h16 h4 %130
+		r8 h h h c c c c
+		b b b b as as as as
+		g4 es'8 es d4 d8 d
+		c4 c c h
+		c \mvTr g8\pE^\soloE g c4 c8 h %135
+		c4 d c8 es d c
+		b!4 as as8 g g as
+		b4 b b8 des c b
+		as([ g)] f4 r a8 b
+		c4 c c8 es! d c %140
+		b4 a b8 b b b
+		b4 a g r
+		R1*4 %146
+		r2 r8 \mvTrh es'\ffE^\tuttiE es es
+		d d d c b8. as16 g8 b
+		as4 as g r8 g
+		a4. a8 b4 b8 b %150
+		es4 es d b
+		r d8 d es4 d
+		c c8 c h h c c
+		c4. h8 c4 r \noBreak
+		R1*2 \bar "||" %156
 	}
 }
 
@@ -96,4 +146,53 @@ MiserereSopranoLyrics = \lyricmode {
 	su -- per ni -- vem de -- al --
 	ba --
 	bor.
+	
+	A -- %73
+	ver --
+	te %75
+	fa -- ci -- em
+	tu --
+	am a pec --
+	ca -- tis
+	me -- is, et %80
+	o -- mnes in -- i -- qui --
+	ta -- tes me --
+	as de --
+	le.
+	
+	Ne pro -- ji -- ci -- as %106
+	me a fa -- ci -- e
+	tu -- a, et spi -- ri -- tum san -- ctum
+	tu -- um non au -- fe -- ras a
+	me, non au -- fe -- ras a %110
+	[me.]
+	
+	Do -- %116
+	ce -- bo in -- i -- quos
+	vi -- as tu -- as, et
+	im -- pi -- i ad te, ad
+	te con -- ver -- ten -- tur. %120
+	
+	Quo -- ni -- am %130
+	si vo -- lu -- iſ -- ses sa -- cri --
+	fi -- ci -- um, de -- diſ -- sem ut -- i --
+	que, ho -- lo -- cau -- stis non
+	de -- le -- cta -- be --
+	ris. Sa -- cri -- fi -- ci -- um %135
+	De -- o spi -- ri -- tus con --
+	tri -- bu -- la -- tus, cor con --
+	tri -- tum et hu -- mi -- li --
+	a -- tum, cor con --
+	tri -- tum et hu -- mi -- li -- %140
+	a -- tum, De -- us, non de --
+	spi -- ci -- es.
+	
+	[Tunc ac -- cep -- %147
+	ta -- bis sa -- cri -- fi -- ci -- um iu --
+	sti -- ti -- ae, ob --
+	la -- ti -- o -- nes et %150
+	ho -- lo -- cau -- sta,
+	tunc im -- po -- nent
+	su -- per al -- ta -- re tu -- um
+	vi -- tu -- los.]
 }

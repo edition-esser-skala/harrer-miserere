@@ -55,6 +55,40 @@ MiserereTenoreNotes = {
 		\time 2/4 b a \bar "|"
 		\time 3/8 \unset Staff.timeSignatureFraction \tempoAuditui
 			b4 r8 \noBreak
+		R4.*56 \bar "||" %105
+		\time 4/4 \tempoNeProjicias \mvTr g4\fE^\tuttiE g g g8 g \noBreak
+		g4 r8 g as4 as8 as
+		g g r g a a16 a a8 a
+		b4 b8 b f8. f16 f8 f
+		g4 r8 c c8. c16 c8 c %110
+		c4 r \tempoReddeMihi r2
+		R1*13 %124
+		r2 \mvTr g4\pE^\soloE g8 g %125
+		b4. a16 g a8([ d)] d c
+		b8. a16 g8 b c2
+		d4 b r8 d d d
+		es4. d8 c4 c
+		h8.([ a16)] g4 \mvTrh d'8.\ffE^\tuttiE d16 d4 %130
+		r8 d d d es es es es
+		d d d d c c d d
+		b4 b8 b as4 as8 as
+		as4 g g g
+		g r r2 %135
+		R1*6 %141
+		r2 r4 r8 \mvTr d'\pE^\soloE
+		d4 d8 d es8. d16 d8 d
+		es es es es es es es d16([ c)]
+		d8([ c)] b4 r8 d16 d d8 d %145
+		es4 d c c8 c
+		c4 h c8 \mvTrh c\ffE^\tuttiE c c
+		c b b as g8. f16 es8 g
+		b4 b b r8 b
+		c4. c8 d4 d8 d %150
+		c4 c b b
+		r g8 d' c4 h
+		c as8 as g g g g
+		g4 g g r
+		R1*2 \bar "||" %156
 	}
 }
 
@@ -92,4 +126,37 @@ MiserereTenoreLyrics = \lyricmode {
 	su -- per ni -- vem de] -- al --
 	ba --
 	bor.
+	
+	[Ne pro -- ji -- ci -- as %106
+	me a fa -- ci -- e
+	tu -- a, et spi -- ri -- tum san -- ctum
+	tu -- um non au -- fe -- ras a
+	me, non au -- fe -- ras a %110
+	me.]
+	
+	Do -- mi -- ne, %125
+	la -- bi -- a me -- a a --
+	pe -- ri -- es, et os
+	me -- um an -- nun -- ti --
+	a -- bit lau -- dem
+	tu -- am. [Quo -- ni -- am %130
+	si vo -- lu -- iſ -- ses sa -- cri --
+	fi -- ci -- um, de -- diſ -- sem ut -- i --
+	que, ho -- lo -- cau -- stis non
+	de -- le -- cta -- be --
+	ris.]
+	
+	Be -- %142
+	ni -- gne fac, Do -- mi -- ne, in
+	bo -- na vo -- lun -- ta -- te tu -- a __
+	Si -- on, ut ae -- di -- fi -- %145
+	cen -- tur mu -- ri Je --
+	ru -- sa -- lem. Tunc ac -- cep --
+	ta -- bis sa -- cri -- fi -- ci -- um iu --
+	sti -- ti -- ae, ob --
+	la -- ti -- o -- nes et %150
+	ho -- lo -- cau -- sta,
+	tunc im -- po -- nent
+	su -- per al -- ta -- re tu -- um
+	vi -- tu -- los.
 }
