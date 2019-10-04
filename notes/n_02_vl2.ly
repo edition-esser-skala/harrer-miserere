@@ -8,6 +8,7 @@ MiserereViolinoII = {
 	\relative c' {
 		\clef treble
 		\key c \minor \time 4/4 \tempoMiserere
+			\set Staff.timeSignatureFraction = 4/4
 		
 	}
 }

@@ -60,7 +60,7 @@
 						\set Staff.instrumentName = "Basso"
 						\new Voice = "Basso" { \dynamicUp \MiserereBassoNotes }
 					}
-					\new Lyrics \lyricsto Alto \MiserereBassoLyrics
+					\new Lyrics \lyricsto Basso \MiserereBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
