@@ -160,6 +160,8 @@ rfz = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "rfz"))
 rfzE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "rfz")))
 pocoF = #(make-dynamic-script (markup #:line (#:normal-text #:small "poco" #:normal-text #:large #:bold "f")))
 pocoFE = #(make-dynamic-script (markup #:line (#:normal-text #:small #:italic "poco" #:normal-text #:large #:bold #:italic "f")))
+pocoP = #(make-dynamic-script (markup #:line (#:normal-text #:small "poco" #:normal-text #:large #:bold "p")))
+pocoPE = #(make-dynamic-script (markup #:line (#:normal-text #:small #:italic "poco" #:normal-text #:large #:bold #:italic "p")))
 
 smallerGroupDistance = {
 	\override StaffGrouper.staffgroup-staff-spacing =
@@ -200,6 +202,11 @@ tempoMarkup =
 %
 
 tempoMiserere = \tempoMarkup "Allegro ma non troppo"
+tempoAuditui = \tempoMarkup "Allegretto"
+tempoNeProjicias = \tempoMarkup "Un poco grave"
+tempoReddeMihi = \tempoMarkup "Allegro come prima"
+tempoGloriaPatri = \tempoMarkup "Un poco allegro"
+tempoFinis = \tempoMarkup "Adagio"
 
 
 
