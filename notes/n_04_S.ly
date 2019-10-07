@@ -15,7 +15,7 @@ SopranoIncipit = \markup {
 	} \hspace #-1.8
 }
 
-MiserereSopranoNotes = {
+MiserereASopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \minor \time 4/4 \autoBeamOff \tempoMiserere
@@ -69,47 +69,11 @@ MiserereSopranoNotes = {
 		es'!8 d c~
 		c16 b a4\trill
 		g4.
-		R4.*21 \bar "||" %105
-		\time 4/4 \tempoNeProjicias \mvTr b4\fE^\tuttiE b b b8 b \noBreak
-		c4 r8 c c4 c8 c
-		c c r c c c16 c c8 c
-		b4 b8 b h8. h16 h8 h
-		c4 r8 b as8. as16 g8. g16 %110
-		f4 r \tempoReddeMihi r2
-		R1*4 %115
-		r2 r4 r8 \mvTr g\pE^\soloE
-		c4 c8 c d4 d
-		es4. es8 d16([ c)] b8 r d
-		d4 c16([ b)] a g fis4 g
-		a b8 a16([ g)] a8 d, r4 %120
-		R1*9 %129
-		r2 \mvTrh h'8.\ffE^\tuttiE h16 h4 %130
-		r8 h h h c c c c
-		b b b b as as as as
-		g4 es'8 es d4 d8 d
-		c4 c c h
-		c \mvTr g8\pE^\soloE g c4 c8 h %135
-		c4 d c8 es d c
-		b!4 as as8 g g as
-		b4 b b8 des c b
-		as([ g)] f4 r a8 b
-		c4 c c8 es! d c %140
-		b4 a b8 b b b
-		b4 a g r
-		R1*4 %146
-		r2 r8 \mvTrh es'\ffE^\tuttiE es es
-		d d d c b8. as16 g8 b
-		as4 as g r8 g
-		a4. a8 b4 b8 b %150
-		es4 es d b
-		r d8 d es4 d
-		c c8 c h h c c
-		c4. h8 c4 r \noBreak
-		R1*2 \bar "||" %156
+		R4.*21 \bar "||" %105 finis
 	}
 }
 
-MiserereSopranoLyrics = \lyricmode {
+MiserereASopranoLyrics = \lyricmode {
 	Mi -- se -- re -- re me -- i,
 	De -- us, se --
 	cun -- dum ma -- gnam mi --
@@ -158,8 +122,102 @@ MiserereSopranoLyrics = \lyricmode {
 	o -- mnes in -- i -- qui --
 	ta -- tes me --
 	as de --
-	le.
-	
+	le. %84 finis
+}
+
+MiserereBSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \autoBeamOff \tempoNeProjicias
+			\set Score.currentBarNumber = #106
+		\mvTr b'4\fE^\tuttiE b b b8 b %106
+		c4 r8 c c4 c8 c
+		c c r c c c16 c c8 c
+		b4 b8 b h8. h16 h8 h
+		c4 r8 b as8. as16 g8. g16 %110
+		f4 r \tempoReddeMihi r2
+		R1*4 %115
+		r2 r4 r8 \mvTr g\pE^\soloE
+		c4 c8 c d4 d
+		es4. es8 d16([ c)] b8 r d
+		d4 c16([ b)] a g fis4 g
+		a b8 a16([ g)] a8 d, r4 %120
+		R1*9 %129
+		r2 \mvTrh h'8.\ffE^\tuttiE h16 h4 %130
+		r8 h h h c c c c
+		b b b b as as as as
+		g4 es'8 es d4 d8 d
+		c4 c c h
+		c \mvTr g8\pE^\soloE g c4 c8 h %135
+		c4 d c8 es d c
+		b!4 as as8 g g as
+		b4 b b8 des c b
+		as([ g)] f4 r a8 b
+		c4 c c8 es! d c %140
+		b4 a b8 b b b
+		b4 a g r
+		R1*4 %146
+		r2 r8 \mvTrh es'\ffE^\tuttiE es es
+		d d d c b8. as16 g8 b
+		as4 as g r8 g
+		a4. a8 b4 b8 b %150
+		es4 es d b
+		r d8 d es4 d
+		c c8 c h h c c
+		c4. h8 c4 r \noBreak
+		R1*2 \bar "||" %156
+		\time 3/8 \tempoGloriaPatri
+			\override Staff.TimeSignature.style = #'single-digit
+			\mvTr g8.\pE^\soloE as16 g8 \noBreak
+		as g r
+		as as as
+		g4 g8 %160
+		g8. g16 g8
+		g g4
+		\appoggiatura g4 f4.
+		r8 \mvTr f\fE^\tuttiE f
+		b4 b8 %165
+		b as4
+		g8. g16 g8
+		g c c
+		c4.~
+		c \noBreak %170
+		h \bar "||"
+		\revert Staff.TimeSignature.style \time 2/2
+			\set Staff.timeSignatureFraction = 2/2
+			R1*3
+		g2 g %175
+		b2. a8 g
+		a4 b8([ c)] d4 c
+		b g8[ f!] es4 d
+		c2 c'~
+		c h \mark \critnote %180
+		\time 4/2 es2. d4 c g c d8[ es]
+		f2. es8[ d] es2 d~
+		d4 g, d'2 c4 b a?2
+		g4 b es2 r4 f es g
+		f2. es8[ d] es1 %185
+		d c
+		b a?
+		g r
+		R\breve
+		d'1. d2 %190
+		es2. d8 c d4 es8[( f]) g4 f
+		es d8[ c] d4 c h d g2~
+		g f1 es2~
+		es d1 \once \tieDashed c2~
+		c h c4 d es f %195
+		g2 r4 g, c2 r4 es
+		d2 r4 h c2 r4 es
+		d c h c d2 c~
+		c h c1\fermata
+		h2 c1 h2 %200
+		c\breve
+		\tempoFinis c1 c\fermata \bar "|." %202 FINIS
+	}
+}
+
+MiserereBSopranoLyrics = \lyricmode {
 	Ne pro -- ji -- ci -- as %106
 	me a fa -- ci -- e
 	tu -- a, et spi -- ri -- tum san -- ctum
@@ -195,4 +253,49 @@ MiserereSopranoLyrics = \lyricmode {
 	tunc im -- po -- nent
 	su -- per al -- ta -- re tu -- um
 	vi -- tu -- los.]
+	
+	Glo -- ri -- a %157
+	Pa -- tri
+	et Fi -- li --
+	o et %160
+	Spi -- ri -- tu --
+	i San --
+	cto.
+	Si -- cut
+	e -- rat %165
+	in prin --
+	ci -- pi -- o
+	et nunc et
+	sem --
+	%170
+	per.
+	
+	Et in %175
+	sae -- cu -- la
+	sae -- cu -- lo -- rum,
+	a -- _ _ _
+	_ _
+	men, %180
+	a -- _ _ _ _ _
+	_ _ _ _
+	_ _ _ _ _
+	men, a -- _ _ _ _
+	_ _ _ %185
+	_ _
+	_ _
+	men.
+	
+	Et in %190
+	sae -- cu -- la sae -- cu -- lo -- rum,
+	a -- _ _ men, a -- _ _
+	_ _
+	_ _
+	men, a -- _ _ _ %195
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _ _ _
+	_ men,
+	a -- _ _ %200
+	men,
+	a -- men. %202 FINIS
 }

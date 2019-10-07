@@ -4,7 +4,7 @@
 
 \version "2.18.0"
 
-MiserereOrgano = {
+MiserereAOrgano = {
 	\relative c {
 		\clef bass
 		\key c \minor \time 4/4 \tempoMiserere
@@ -113,128 +113,12 @@ MiserereOrgano = {
 		c as! b
 		c4 b8
 		as4 g8
-		as b b, \noBreak
-		es4. \bar "||" %105
-		\time 4/4 \tempoNeProjicias \mvTr es8\f-\tuttiE es es es es es es es \noBreak
-		e e e e f f f f
-		c c c c f f es es
-		des des des des des des des des
-		c c c c f f, c' c, %110
-		f'4 r \tempoReddeMihi \mvTr f8\p-\soloE es d! b
-		es4 r8 es16 f g8 as b b,
-		es es' b as g( es) f( d)
-		es( c) d( b) g'( es) f( d)
-		\slurDashed es( c) d( b) \slurSolid g'4 r8 as %115
-		b b b, b es g16 f es8 d
-		c d es f g a? h g
-		c b a f b b, b' a
-		g g c, c d d'16 c b8 g
-		fis d g g, d'4 d'8 c %120
-		b4. a16 g c8 c, r c'16 b
-		a4. g16 f b8 b, r b'16 a
-		g4. f16 g a8 a, r a'16 g
-		fis4. e16 d g8 g, r g'16 f
-		es8 d16 c d8 d, g g' d b %125
-		g4 g'2 fis4
-		g8 g g g a a a a
-		b b b b h h h h
-		c c g g as! as fis fis
-		g g g g \mvTrh g8.\ff-\tuttiE g16 g4 %130
-		r8 g g g c c, as' as,
-		b' b, g' g, as' as, b' b,
-		es es es es b b b h
-		c c c c g' g g, g
-		c4 r r8 \mvTr c\p-\soloE g' g, %135
-		r c h g c4 r
-		r8 b d b es4 r
-		r8 g e d c(-. c-. c-. c-.)
-		f(-. f-. f-. f-.) f(-. f-. f-. f-.)
-		f(-. f-. f-. f-.) fis(-. fis-. fis-. fis-.) %140
-		g g d d g, g' es c
-		d d d d g, g g' g
-		g g, g g' g g, g g'
-		c, c b b a a f f
-		b b as as g g g g %145
-		c c g' g as! as fis fis
-		g g g, g c \mvTrh c[\ff-\tuttiE c c]
-		d d d d es es es es
-		es es d d es es es es
-		c c c c b4 b8 b %150
-		b b a a b b' f d
-		b b h h c c g' g
-		as! as f f g8.[ f16 es8 c]
-		g'4 g, c r8 h
-		c4 r8 h c es g g, \noBreak %155
-		c4 r r2 \bar "||"
-		\clef "treble_8" \time 3/8 \tempoGloriaPatri
-			\override Staff.TimeSignature.style = #'single-digit
-			c'8.\pocoPE c16 c8 \noBreak
-		f, c' r
-		c b b
-		es,4 es8 %160
-		c8. c'16 b8
-		as a a
-		b4.
-		\clef bass r8 b\f b
-		b4 as!8 %165
-		g f4
-		es8. es16 es8
-		c es c
-		f f f
-		fis fis fis \noBreak %170
-		g4. \bar "||"
-		\clef treble \revert Staff.TimeSignature.style \time 2/2
-			\set Staff.timeSignatureFraction = 2/2
-			c2 c \noBreak
-		es2. d8 c
-		d4 es8 f g4 f
-		<< {
-			g2 g %175
-			b2. a8 g
-			a4 b8 c d4 c
-			b g8 f es4 d
-			c2 c'~
-			c h %180
-		} \\ {
-			es,4 d8 c b4 a %175
-			g2 g'~
-			g fis
-			g r4 g,
-			as!2 r4 es'
-			d1 %180
-		} >> \mark \critnote
-		\time 4/2 \clef bass
-			c,2 c es2. d8 c
-		d4 es8 f g4 f es d8 c b4 a?
-		g2 g'1 fis2
-		g r4 g, as!2 r4 es'
-		d1 c4 d es c %185
-		g' a? b g a? g fis d
-		g f es c d c d d,
-		g2 << {
-			d''2 es2. d8 c
-			d4^\critnote e8 fis g2
-		} \\ {
-			g,1 g2
-			b2. a8 g
-		} >> a4 b8 c d4 c
-		b a?8 g fis4 e d c h g %190
-		c2 c'1 h2
-		c f, g4 f es c
-		f es d b es d c as
-		d c h g c2 f
-		g4 g, g' g, g' g, g' g, %195
-		g' g, g' g, g' g, g' g,
-		g' g, g' g, g' g, g' g,
-		g' g, g' g, g' g, g' g,
-		g' g, g' g, fis'1\fermata
-		f2 es f g %200
-		c, f e c
-		\tempoFinis f1 c\fermata \bar "|." %202 finis
+		as b b,
+		es4. \bar "||" %105 finis
 	}
 }
 
-MiserereBassFigures = \figuremode {
+MiserereABassFigures = \figuremode {
 	r2. <7 5>4
 	<6 4>8. <5 _!>16 r2 <7 _!>4
 	<5 3> <_!> <5 3> <6 5 _!>
@@ -339,8 +223,135 @@ MiserereBassFigures = \figuremode {
 	<5> <6> q
 	<6 3> <4 2> <6 3>
 	q <5 3>4
-	r4. %105
-	<5 3>1
+	r4. %105 finis
+}
+
+MiserereBOrgano = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 4/4 \tempoNeProjicias
+			\set Score.currentBarNumber = #106
+		\mvTr es8\f-\tuttiE es es es es es es es %106
+		e e e e f f f f
+		c c c c f f es es
+		des des des des des des des des
+		c c c c f f, c' c, %110
+		f'4 r \tempoReddeMihi \mvTr f8\p-\soloE es d! b
+		es4 r8 es16 f g8 as b b,
+		es es' b as g( es) f( d)
+		es( c) d( b) g'( es) f( d)
+		\slurDashed es( c) d( b) \slurSolid g'4 r8 as %115
+		b b b, b es g16 f es8 d
+		c d es f g a? h g
+		c b a f b b, b' a
+		g g c, c d d'16 c b8 g
+		fis d g g, d'4 d'8 c %120
+		b4. a16 g c8 c, r c'16 b
+		a4. g16 f b8 b, r b'16 a
+		g4. f16 g a8 a, r a'16 g
+		fis4. e16 d g8 g, r g'16 f
+		es8 d16 c d8 d, g g' d b %125
+		g4 g'2 fis4
+		g8 g g g a a a a
+		b b b b h h h h
+		c c g g as! as fis fis
+		g g g g \mvTrh g8.\ff-\tuttiE g16 g4 %130
+		r8 g g g c c, as' as,
+		b' b, g' g, as' as, b' b,
+		es es es es b b b h
+		c c c c g' g g, g
+		c4 r r8 \mvTr c\p-\soloE g' g, %135
+		r c h g c4 r
+		r8 b d b es4 r
+		r8 g e d c(-. c-. c-. c-.)
+		f(-. f-. f-. f-.) f(-. f-. f-. f-.)
+		f(-. f-. f-. f-.) fis(-. fis-. fis-. fis-.) %140
+		g g d d g, g' es c
+		d d d d g, g g' g
+		g g, g g' g g, g g'
+		c, c b b a a f f
+		b b as as g g g g %145
+		c c g' g as! as fis fis
+		g g g, g c \mvTrh c[\ff-\tuttiE c c]
+		d d d d es es es es
+		es es d d es es es es
+		c c c c b4 b8 b %150
+		b b a a b b' f d
+		b b h h c c g' g
+		as! as f f g8.[ f16 es8 c]
+		g'4 g, c r8 h
+		c4 r8 h c es g g, \noBreak %155
+		c4 r r2 \bar "||"
+		\clef "treble_8" \time 3/8 \tempoGloriaPatri
+			\override Staff.TimeSignature.style = #'single-digit
+			\mvTr c'8.\pE-\soloE c16 c8 \noBreak
+		f, c' r
+		c b b
+		es,4 es8 %160
+		c8. c'16 b8
+		as a a
+		b4.
+		\clef bass r8 \mvTr b\f-\tuttiE b
+		b4 as!8 %165
+		g f4
+		es8. es16 es8
+		c es c
+		f f f
+		fis fis fis \noBreak %170
+		g4. \bar "||"
+		\clef treble \revert Staff.TimeSignature.style \time 2/2
+			\set Staff.timeSignatureFraction = 2/2
+			c2 c \noBreak
+		es2. d8 c
+		d4 es8 f g4 f
+		<< {
+			g2 g %175
+			b2. a8 g
+			a4 b8 c d4 c
+			b g8 f es4 d
+			c2 c'~
+			c h %180
+		} \\ {
+			es,4 d8 c b4 a %175
+			g2 g'~
+			g fis
+			g r4 g,
+			as!2 r4 es'
+			d1 %180
+		} >> \mark \critnote
+		\time 4/2 \clef bass
+			c,2 c es2. d8 c
+		d4 es8 f g4 f es d8 c b4 a?
+		g2 g'1 fis2
+		g r4 g, as!2 r4 es'
+		d1 c4 d es c %185
+		g' a? b g a? g fis d
+		g f es c d c d d,
+		g2 << {
+			d''2 es2. d8 c
+			d4^\critnote e8 fis g2
+		} \\ {
+			g,1 g2
+			b2. a8 g
+		} >> a4 b8 c d4 c
+		b a?8 g fis4 e d c h g %190
+		c2 c'1 h2
+		c f, g4 f es c
+		f es d b es d c a?
+		d c h g c2 f
+		g4 g, g' g, g'-\tastoE g, g' g, %195
+		g' g, g' g, g' g, g' g,
+		g' g, g' g, g' g, g' g,
+		g' g, g' g, g' g, g' g,
+		g' g, g' g, fis'1\fermata
+		f2 es f g %200
+		c, f e c
+		\tempoFinis f1 c\fermata \bar "|." %202 FINIS
+	}
+}
+
+MiserereBBassFigures = \figuremode {
+	<5 3>1 %106
 	<6 5 3>2 <5 3>
 	<5 _!> <5 _!>4 <[4!] 2>
 	<6 3>2 <6! 3>
@@ -366,7 +377,7 @@ MiserereBassFigures = \figuremode {
 	<5 3>4 <6 4>8 <5 _!> <6 5>4 <6 5 _!>
 	<5 _!>1 %130
 	r8 <\t \t>4. <5 3>4 <6 5>
-	<5 3> <6 5> <[6 3]> <7 5>
+	<5 3> <[5 3]> <[6 3]> <7 5>
 	<5 3>2 <[7]>4. <[\t]>8
 	<[6 4]>4 <[5 3]> <6 4> <5 _!>
 	r2. <[6] 4>8 <[5] _!> %135
@@ -391,14 +402,14 @@ MiserereBassFigures = \figuremode {
 	<6 4> <5 [4]>8 <[\t _!]> r4. <6 5>8
 	<5 3>4. <6 5>8 r <6> <7 5 _!>4 %155
 	r1
+	r8. <[6 4]>16 <[5 3]>8
 	r4.
-	r
 	<6>8 <7 3>4
 	<5 3>4. %160
 	<5 3>4 <6 3>8
 	<7 3>8 <\t \t>4
-	<5 3>4.
-	r8 <5 3>4
+	<[6 4]>4 <5 3>8
+	r <5 3>4
 	r <\t \t>8 %165
 	<6 3> <7 3> <6 \t>
 	<5 3>4.
@@ -406,4 +417,35 @@ MiserereBassFigures = \figuremode {
 	q4.
 	<6 5 _!> %170
 	<5 _!>
+	r1
+	r
+	r
+	r %175
+	r
+	r
+	r
+	r
+	r %180
+	<9>2 <8> <6>1
+	<7>2 <7 _!>4 <\t \t> <6>2 q4 <\t>
+	r1 <6 4 2>4 <5 3> <6 _!> <5>
+	r2. <6 5>4 q2. <6>4
+	<7>2 <6!> r <6> %185
+	<4> <6> <9- 5!> <6 5 _!>4 <7 5! _+>
+	<9!> <\t> <5 3> <\t \t> <5! _+>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+	r\breve
+	r1 <7>2 <5! _+>4 <\t \t>
+	<6>2 <6 _!> <5! _+>4 <\t \t> <6> <_!> %190
+	<9>2 <8> <6- 4 2> <6>4 <5>
+	r2 <6>4 <5> <_!>4 <\t> <6>2
+	<9>4 <\t> <6 5> <\t \t> <9> <\t> <6! 5> <\t \t>
+	<9 5!> <\t \t> <6 5> <\t \t> <9>2 <7>
+	<4>2 <_!> r1 %195
+	r\breve
+	r
+	r
+	r1 <7>
+	<4! 2>2 <6> <6 5> <_!> %200
+	r1 <6>2 <_!>
+	r1 <_!> %202 finis
 }

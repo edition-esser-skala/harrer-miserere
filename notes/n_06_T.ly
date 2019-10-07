@@ -15,12 +15,12 @@ TenoreIncipit = \markup {
 	} \hspace #-1.8
 }
 
-MiserereTenoreNotes = {
+MiserereATenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \minor \time 4/4 \autoBeamOff \tempoMiserere
 			\set Staff.timeSignatureFraction = 4/4
-		r4 \mvTr es8.\fE^\tuttiE es16 es8. es16 es8 es
+			r4 \mvTr es8.\fE^\tuttiE es16 es8. es16 es8 es %106
 		es8.( d16) d4 r r8 h
 		c4 h c a8. a16
 		g8 g g g16 g g2
@@ -55,44 +55,11 @@ MiserereTenoreNotes = {
 		\time 2/4 b a \bar "|"
 		\time 3/8 \unset Staff.timeSignatureFraction \tempoAuditui
 			b4 r8 \noBreak
-		R4.*56 \bar "||" %105
-		\time 4/4 \tempoNeProjicias \mvTr g4\fE^\tuttiE g g g8 g \noBreak
-		g4 r8 g as4 as8 as
-		g g r g a a16 a a8 a
-		b4 b8 b f8. f16 f8 f
-		g4 r8 c c8. c16 c8 c %110
-		c4 r \tempoReddeMihi r2
-		R1*13 %124
-		r2 \mvTr g4\pE^\soloE g8 g %125
-		b4. a16 g a8([ d)] d c
-		b8. a16 g8 b c2
-		d4 b r8 d d d
-		es4. d8 c4 c
-		h8.([ a16)] g4 \mvTrh d'8.\ffE^\tuttiE d16 d4 %130
-		r8 d d d es es es es
-		d d d d c c d d
-		b4 b8 b as4 as8 as
-		as4 g g g
-		g r r2 %135
-		R1*6 %141
-		r2 r4 r8 \mvTr d'\pE^\soloE
-		d4 d8 d es8. d16 d8 d
-		es es es es es es es d16([ c)]
-		d8([ c)] b4 r8 d16 d d8 d %145
-		es4 d c c8 c
-		c4 h c8 \mvTrh c\ffE^\tuttiE c c
-		c b b as g8. f16 es8 g
-		b4 b b r8 b
-		c4. c8 d4 d8 d %150
-		c4 c b b
-		r g8 d' c4 h
-		c as8 as g g g g
-		g4 g g r
-		R1*2 \bar "||" %156
+		R4.*56 \bar "||" %105 finis
 	}
 }
 
-MiserereTenoreLyrics = \lyricmode {
+MiserereATenoreLyrics = \lyricmode {
 	[Mi -- se -- re -- re me -- i,
 	De -- us, se --
 	cun -- dum ma -- gnam mi --
@@ -125,8 +92,93 @@ MiserereTenoreLyrics = \lyricmode {
 	la -- va -- bis me, [et
 	su -- per ni -- vem de] -- al --
 	ba --
-	bor.
-	
+	bor. %49 finis
+}
+
+MiserereBTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \minor \time 4/4 \autoBeamOff \tempoNeProjicias
+			\set Score.currentBarNumber = #106
+		\mvTr g4\fE^\tuttiE g g g8 g %106
+		g4 r8 g as4 as8 as
+		g g r g a a16 a a8 a
+		b4 b8 b f8. f16 f8 f
+		g4 r8 c c8. c16 c8 c %110
+		c4 r \tempoReddeMihi r2
+		R1*13 %124
+		r2 \mvTr g4\pE^\soloE g8 g %125
+		b4. a16 g a8([ d)] d c
+		b8. a16 g8 b c2
+		d4 b r8 d d d
+		es4. d8 c4 c
+		h8.([ a16)] g4 \mvTrh d'8.\ffE^\tuttiE d16 d4 %130
+		r8 d d d es es es es
+		d d d d c c d d
+		b4 b8 b as4 as8 as
+		as4 g g g
+		g r r2 %135
+		R1*6 %141
+		r2 r4 r8 \mvTr d'\pE^\soloE
+		d4 d8 d es8. d16 d8 d
+		es es es es es es es d16([ c)]
+		d8([ c)] b4 r8 d16 d d8 d %145
+		es4 d c c8 c
+		c4 h c8 \mvTrh c\ffE^\tuttiE c c
+		c b b as g8. f16 es8 g
+		b4 b b r8 b
+		c4. c8 d4 d8 d %150
+		c4 c b b
+		r g8 d' c4 h
+		c as8 as g g g g
+		g4 g g r
+		R1*2 \bar "||" %156
+		\time 3/8 \tempoGloriaPatri
+			\override Staff.TimeSignature.style = #'single-digit
+			\mvTr c8.\pE^\soloE c16 c8 \noBreak
+		f, c' r
+		c b b
+		es,4 es8 %160
+		c8. c'16 b8
+		as a4
+		b4.
+		r8 \mvTr b\fE^\tuttiE b
+		b4 d8 %165
+		es4 d8
+		es8. b16 b8
+		c c es
+		f4.(
+		d) \noBreak %170
+		d \bar "||"
+		\revert Staff.TimeSignature.style \time 2/2
+			\set Staff.timeSignatureFraction = 2/2
+			R1*9 \mark \critnote %180
+		\time 4/2 R\breve
+		r2 g,1 g2
+		b2. a?8 g a4 b8([ c)] d4 c
+		b g8[ f!] es4 d c2 c'~
+		c h c4 g c2~ %185
+		c b1 a?2~
+		a g fis d'~
+		d d es2. d8 c
+		d4 e8([ fis)] g1 fis2
+		g d d1~ %190
+		d2 c f d
+		es f d es
+		c d b c
+		a? h g r
+		d' d es2. d8 c %195
+		d4 es8([ f)] g4 f es d8[ c] d4 c
+		r h g2 r4 c f c
+		h a? g g' d2 r4 es
+		d1 es\fermata
+		d2 es d1 %200
+		es2 f( c) e
+		\tempoFinis f1 e\fermata \bar "|." %202 FINIS
+	}
+}
+
+MiserereBTenoreLyrics = \lyricmode {
 	[Ne pro -- ji -- ci -- as %106
 	me a fa -- ci -- e
 	tu -- a, et spi -- ri -- tum san -- ctum
@@ -159,4 +211,42 @@ MiserereTenoreLyrics = \lyricmode {
 	tunc im -- po -- nent
 	su -- per al -- ta -- re tu -- um
 	vi -- tu -- los.
+	
+	[Glo -- ri -- a %157
+	Pa -- tri
+	et Fi -- li --
+	o et %160
+	Spi -- ri -- tu --
+	i San --
+	cto.
+	Si -- cut
+	e -- rat %165
+	in prin --
+	ci -- pi -- o
+	et nunc et
+	sem --
+	%170
+	per.]
+	
+	Et in %182
+	sae -- cu -- la sae -- cu -- lo -- rum,
+	a -- _ _ _ _ _
+	_ men, a -- _ %185
+	_ _
+	_ men. Et __
+	in sae -- cu -- la
+	sae -- cu -- lo -- rum,
+	a -- men, a -- %190
+	_ _ _
+	men, a -- _ _
+	_ _ _ _
+	_ _ men.
+	Et in sae -- cu -- la %195
+	sae -- cu -- lo -- rum, a -- _ _ _
+	_ men, a -- _ _
+	_ _ _ _ men, a --
+	_ men,
+	[a -- _ _ %200
+	men, a -- men,
+	a -- men.] %202 FINIS
 }

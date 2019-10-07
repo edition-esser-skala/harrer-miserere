@@ -4,11 +4,20 @@
 
 \version "2.18.0"
 
-MiserereViola = {
+MiserereAViola = {
 	\relative c' {
 		\clef treble
 		\key c \minor \time 4/4 \tempoMiserere
 			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+MiserereBViola = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \tempoNeProjicias
+			\set Score.currentBarNumber = #106
 		
 	}
 }

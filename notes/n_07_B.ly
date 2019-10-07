@@ -4,7 +4,7 @@
 
 \version "2.18.0"
 
-MiserereBassoNotes = {
+MiserereABassoNotes = {
 	\relative c {
 		\clef bass
 		\key c \minor \time 4/4 \autoBeamOff \tempoMiserere
@@ -58,46 +58,11 @@ MiserereBassoNotes = {
 		c'8. as16 as8
 		as( b4)\trill
 		es,4. %95
-		R4.*10 \bar "||" %105
-		\time 4/4 \tempoNeProjicias \mvTr es4\fE^\tuttiE es es es8 es \noBreak
-		e4 r8 e f4 f8 f
-		c c r c f f16 f es8 es
-		des?4 des8 des des8. des16 des8 des
-		c4 r8 c f8. f16 c8 c %110
-		f4 r \tempoReddeMihi r2
-		R1*8 %119
-		\mvTr d'4\pE^\soloE d8 d d4 d8 c %120
-		b4. a16 g c8 c, c' c16 b
-		a4. g16([ f)] b8 b, r b'16([ a)]
-		g4. f16([ g)] a8 a, a'8. g16
-		fis4. e16 d g8. g,16 g8 g'16([ f)]
-		es8 d16 c d4 g, r %125
-		R1*4
-		r2 \mvTrh g'8.\ffE^\tuttiE g16 g4 %130
-		r8 g g g c c as as
-		b b g g as as b b,
-		es4 es8 es b4 b8 h
-		c4 c g' g,
-		c r r2 %135
-		R1*6 %141
-		r2 r4 r8\mvTr b'\pE^\soloE
-		b4 b8 b c8. h16 h8 h
-		c c c c c c c b16([ a)]
-		b4 b, r8 h'16 h h8 h %145
-		c4 b as! fis8 fis
-		g4 g, c8 \mvTrh c\ffE^\tuttiE c c
-		d d d d es es es es
-		es4 d es r8 es
-		c4. c8 b4 b8 b %150
-		b4 a b b
-		r h8 h c4 g'
-		as! f8 f g8. f16 es8 c
-		g'4 g, c r
-		R1*2 \bar "||" %156 finis
+		R4.*10 \bar "||" %105 finis
 	}
 }
 
-MiserereBassoLyrics = \lyricmode {
+MiserereABassoLyrics = \lyricmode {
 	[Mi -- se -- re -- re me -- i,
 	De -- us, se --
 	cun -- dum ma -- gnam mi --
@@ -145,8 +110,89 @@ MiserereBassoLyrics = \lyricmode {
 	in vi --
 	sce -- ri -- bus
 	me --
-	is. %95
-	
+	is. %95 finis
+}
+
+MiserereBBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 4/4 \autoBeamOff \tempoNeProjicias
+			\set Score.currentBarNumber = #106
+		\mvTr es4\fE^\tuttiE es es es8 es %106
+		e4 r8 e f4 f8 f
+		c c r c f f16 f es8 es
+		des?4 des8 des des8. des16 des8 des
+		c4 r8 c f8. f16 c8 c %110
+		f4 r \tempoReddeMihi r2
+		R1*8 %119
+		\mvTr d'4\pE^\soloE d8 d d4 d8 c %120
+		b4. a16 g c8 c, c' c16 b
+		a4. g16([ f)] b8 b, r b'16([ a)]
+		g4. f16([ g)] a8 a, a'8. g16
+		fis4. e16 d g8. g,16 g8 g'16([ f)]
+		es8 d16 c d4 g, r %125
+		R1*4
+		r2 \mvTrh g'8.\ffE^\tuttiE g16 g4 %130
+		r8 g g g c c as as
+		b b g g as as b b,
+		es4 es8 es b4 b8 h
+		c4 c g' g,
+		c r r2 %135
+		R1*6 %141
+		r2 r4 r8\mvTr b'\pE^\soloE
+		b4 b8 b c8. h16 h8 h
+		c c c c c c c b16([ a)]
+		b4 b, r8 h'16 h h8 h %145
+		c4 b as! fis8 fis
+		g4 g, c8 \mvTrh c\ffE^\tuttiE c c
+		d d d d es es es es
+		es4 d es r8 es
+		c4. c8 b4 b8 b %150
+		b4 a b b
+		r h8 h c4 g'
+		as! f8 f g8. f16 es8 c
+		g'4 g, c r
+		R1*2 \bar "||" %156 finis
+		\time 3/8 \tempoGloriaPatri
+			\override Staff.TimeSignature.style = #'single-digit
+		R4.*7 %163
+		r8 \mvTr b'\fE^\tuttiE b
+		b4 as!8 %165
+		g f4
+		es8. es16 es8
+		c es c
+		f4.(
+		fis) \noBreak %170
+		g \bar "||"
+		\revert Staff.TimeSignature.style \time 2/2
+			\set Staff.timeSignatureFraction = 2/2
+			R1*9 %180
+		c,2 c es2. d8 c
+		d4 es8([ f)] g4 f es d8[ c] b4 a?
+		g2 g'1 fis2
+		g r4 g, as!2 r4 es'
+		d1 c4 d es c %185
+		g' a? b g a? g fis d
+		g f es c d1
+		g,2 g'1 g2
+		b2. a8 g a4 b8([ c)] d4 c
+		b a?8[ g] fis4 e d c h g %190
+		c2 c'1 h2
+		c f, g4 f es c
+		f es d b es d c a
+		d c h g c2 f
+		g\breve~ %195
+		g~
+		g~
+		g~
+		g1 fis1\fermata
+		f2 es f g %200
+		c, f( e) c
+		\tempoFinis f1 c\fermata \bar "|." %202 FINIS
+	}
+}
+
+MiserereBBassoLyrics = \lyricmode {
 	[Ne pro -- ji -- ci -- as %106
 	me a fa -- ci -- e
 	tu -- a, et spi -- ri -- tum san -- ctum
@@ -181,4 +227,34 @@ MiserereBassoLyrics = \lyricmode {
 	tunc im -- po -- nent
 	su -- per al -- ta -- re tu -- um
 	vi -- tu -- los.]
+	
+	[Si -- cut %164
+	e -- rat %165
+	in prin --
+	ci -- pi -- o
+	et nunc et
+	sem --
+	%170
+	per.]
+	
+	Et in sae -- cu -- la %181
+	sae -- cu -- lo -- rum, a -- _ _ _
+	_ _ _
+	men, a -- _ _
+	_ _ _ _ _ %185
+	_ _ _ _ _ _ _ _
+	_ _ _ _ _
+	men. Et in
+	sae -- cu -- la sae -- cu -- lo -- rum,
+	a -- _ _ _ _ _ _ _ %190
+	_ _ _
+	_ men, a -- _ _ _
+	_ _ _ _ _ _ _ _
+	_ _ _ _ _ [men,]
+	a -- %195
+	
+	men, %199
+	a -- _ _ _ %200
+	men, a -- men,
+	a -- men. %202 FINIS
 }
