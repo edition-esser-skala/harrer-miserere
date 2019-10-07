@@ -9,7 +9,28 @@ MiserereAViola = {
 		\clef treble
 		\key c \minor \time 4/4 \tempoMiserere
 			\set Staff.timeSignatureFraction = 4/4
-		
+		g'4\fE g8. g16 g8.[ g16 as8 as]
+		g8.[ g16 g8 g] \once \slurDashed g(-. g-. h-. h-.)
+		g(-. g-. g-. g-.) es([-. es-. d8.-.) d16-!]
+		d8(-. d-. es-. es-.) es(-. es-. d-. d-.)
+		es c g g es4 r %5
+		c'8\p c b b b b b b
+		b g' es es es es es es
+		c c b b b es g g
+		g4\f f g g8 g
+		es f g g g g g g %10
+		g g, g g g4 r8 c\p
+		c4 d b r8 es
+		es c c-\critnote c b b r b
+		c c b b b c es d
+		b4 b es c8 f %15
+		f4 r8 g-\critnote es es es c
+		a a fis' fis g b, b g
+		fis fis fis fis' d\pocoF b b g
+		a? fis' fis fis b\p g b g
+		g\f es es g es\p es e e %20
+		a,? a fis' fis d[\fE c d] es\p \noBreak
+		d d d d d4 r \bar "||"
 	}
 }
 
