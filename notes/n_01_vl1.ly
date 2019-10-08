@@ -52,14 +52,69 @@ MiserereAViolinoI = {
 		g2 fis4 r
 		r8 fis fis fis g g, a4\trill
 		g8 d'[\f d d] d d g g
-		g8.[ g16 g8 g]
-		g g fis fis %45
-		g g g g a f r f,
+		g8.[ g16 g8 g] g g fis fis
+		g g g g a f r f, %45
 		c'2 d4 r8 d
 		d d c c f f f g \noBreak
 		\time 2/4 f4. es8 \bar "|"
 		\time 3/8 \unset Staff.timeSignatureFraction \tempoAuditui
 			d4 f8 \noBreak
+		b8. d16 c8 %50
+		c b g~
+		g f es
+		d32( b16.) f'32([ d16.)] b'32( f16.)
+		g8 f es
+		d[ b] f'\p %55
+		b8. c16 a8
+		b8 f g~
+		g f es
+		d4.
+		g,8 f es' %60
+		d32(\f b16.) f'32([ d16.)] a'32( f16.)
+		b8[ b,] d\pE
+		c e4\trill
+		f8 b a
+		g16 f e8 f %65
+		c b a
+		d \appoggiatura g fis4\trill
+		g8 c b
+		a16 g fis8 g
+		d c b~ %70
+		b a a'~
+		a g16 f e d
+		d8 cis e
+		f4.
+		e %75
+		d
+		e
+		f
+		d
+		d~ %80
+		d8 c16 b a? g
+		es'8 d c
+		b16 g' fis4\trill
+		g16 g, b d g8
+		r16 f,! a d f!8 %85
+		r16 g, b es g8
+		r16 b, d f g8
+		r16 f, a c f8
+		r16 f, b d f8
+		r16 f, a c f8 %90
+		r16 f, b d f8
+		r16 es, g b es8
+		r16 es, as c es8
+		r16 f, es' f, f d'
+		es8\ff g f %95
+		es b c~
+		c b as~
+		as g g~
+		g f es
+		d32( b16.) d'32([ b16.)] as'32( f16.) %100
+		es8 f4\trill
+		es8 as, g
+		f es16 d es8
+		es16. f32 \appoggiatura g8 f4\trill
+		es4. \bar "||" %105 finis
 	}
 }
 

@@ -6,7 +6,7 @@
 
 MiserereAViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \minor \time 4/4 \tempoMiserere
 			\set Staff.timeSignatureFraction = 4/4
 		g'4\fE g8. g16 g8.[ g16 as8 as]
@@ -59,6 +59,62 @@ MiserereAViola = {
 		\time 2/4 b4 a \bar "|"
 		\time 3/8 \unset Staff.timeSignatureFraction \tempoAuditui
 			f4 r8 \noBreak
+		f f a %50
+		d,4 r8
+		c4.
+		b8 d f
+		b, f' f
+		f4 r8 %55
+		d\p es f
+		g r b
+		f f a
+		f4.
+		b,8 a a %60
+		f4\f es'8
+		d[ d] f\pE
+		g g c,~
+		c e f
+		d g c,~ %65
+		c g' f
+		a a a
+		d, fis g
+		fis a d,~
+		d a' g~ %70
+		g f! f
+		b b h
+		e,?4 a?8
+		r a? f!
+		r a? a,? %75
+		r f' d
+		r g c,
+		r f f,
+		r a'? g~
+		g fis4 %80
+		d d8
+		c4 es8
+		d d d
+		d4 r8
+		d8. f!16 d8 %85
+		b8. b16 es8
+		f8. f16 c8
+		c8. a'16 a8
+		b8. b16 b,8
+		f'8. a,16 c8 %90
+		b8. b16 b8
+		b8. g16 b8
+		c8. f16 c8~
+		c b b
+		g4\ff d'8 %95
+		g4 r8
+		d4 d8
+		c4 es8
+		c4 c8
+		b f' d %100
+		g c, b
+		g es' d
+		c b b
+		as b as
+		g4. \bar "||" %105 finis
 	}
 }
 

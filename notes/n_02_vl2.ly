@@ -59,6 +59,62 @@ MiserereAViolinoII = {
 		\time 2/4 c2 \bar "|"
 		\time 3/8 \unset Staff.timeSignatureFraction \tempoAuditui
 			b4 f'8 \noBreak
+		b8. d16 c8 %50
+		c b g~
+		g f es
+		d32( b16.) f'32([ d16.)] b'32( f16.)
+		es8 d c
+		b4 f'8\p %55
+		f g f
+		d r es
+		c c c
+		b4.
+		g8 f es' %60
+		d32(\f b16.) f'32([ d16.)] a'32( f16.)
+		b8[ b,] d\pE
+		c e4\trill
+		f8 b a
+		g16 f e8 f %65
+		c b a
+		d \appoggiatura g fis4\trill
+		g8 c b
+		a16 g fis8 g
+		d c b~ %70
+		b a d~
+		d d h
+		a4 cis8
+		d4.
+		cis %75
+		b~
+		b
+		a~
+		a4 b8~
+		b a4 %80
+		g4 g8~
+		g4 a8
+		b a?4\trill
+		b8 d8. b16
+		a8 d8. a16 %85
+		g8 b8. b16
+		b8 b8. b16
+		a8 c8. es16
+		d8 f,8. d'16
+		c8 f8. c16 %90
+		d8 f,8. d'16
+		es8 b8. g16
+		es'8 c8. as16
+		f8 f as
+		g8\ff g' f %95
+		es b c~
+		c b as~
+		as g g~
+		g f es
+		d32( b16.) d'32([ b16.)] as'32( f16.) %100
+		es8 f4\trill
+		es8 as, g
+		f es16 d es8
+		es \appoggiatura es8 d4\trill-\critnote
+		es4. \bar "||" %105 finis
 	}
 }
 
