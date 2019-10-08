@@ -31,6 +31,34 @@ MiserereAViola = {
 		g\f es es g es\p es e e %20
 		a,? a fis' fis d[\fE c d] es\p \noBreak
 		d d d d d4 r \bar "||"
+		es8\ff es es es es4 f8 f\noBreak
+		f f r f f f f f
+		g g g c, c c c c %25
+		c4 r r2
+		R1
+		b8 b b as g4. f16 g
+		as8 es as as as4 g8 g
+		f4 e e8 e' f b %30
+		as4 g f8 as as as
+		g g f f f f des des
+		c c c c c4 r
+		r2 c\p
+		c r8 as' as as %35
+		b4 r r8 b b b
+		c4 r r8 as as as
+		g g g g g4 r
+		r8 g f f f4 r
+		r8 a? g g g4 r %40
+		r8 h? a a a4 r
+		r8 a, a a d d d d
+		d d[\f g g] g g d d
+		e8.[ e16 e8 e] d d d d
+		d d e? e f f r4 %45
+		r8 f a f f4 r8 f
+		g g g g a a b b \noBreak
+		\time 2/4 b4 a \bar "|"
+		\time 3/8 \unset Staff.timeSignatureFraction \tempoAuditui
+			f4 r8 \noBreak
 	}
 }
 
