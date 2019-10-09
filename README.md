@@ -1,4 +1,4 @@
-# Gottloh Harrer: Miserere in c
+# Gottloh Harrer: Miserere in c HarWV 41
 
 Engraving files for LilyPond 2.18.0
 
@@ -35,7 +35,7 @@ The file *master.ly* allows you to work with an editor like Kile: Change the inc
     * n_05_A.ly
     * n_06_T.ly
     * n_07_B.ly
-    * n_0o_org.ly
+    * n_08_org.ly
 * Movement definitions in folder *scores*:
     * s_miserere.ly
 * Parts definitions in folder *parts*:

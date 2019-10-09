@@ -107,7 +107,11 @@
 					\new Lyrics \lyricsto Basso \MiserereBBassoLyrics
 				>>
 				\new StaffGroup <<
-					\new Staff { \MiserereBOrgano }
+					\new Staff {
+						\set Score.barNumberVisibility = #all-bar-numbers-visible
+						\bar ""
+						\MiserereBOrgano
+					}
 				>>
 				\new FiguredBass { \MiserereBBassFigures }
 			>>

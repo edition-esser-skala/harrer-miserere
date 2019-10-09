@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="744.09448"
-   height="1052.3622"
+   width="1052.3622"
+   height="744.09448"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="1_title_portrait.svg">
+   sodipodi:docname="1_title_landscape.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="99.268829"
-     inkscape:cy="345.75884"
+     inkscape:zoom="0.7612892"
+     inkscape:cx="232.13102"
+     inkscape:cy="410.19899"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -43,14 +43,6 @@
      inkscape:snap-bbox-midpoints="true"
      inkscape:snap-global="true"
      inkscape:snap-to-guides="true">
-    <sodipodi:guide
-       orientation="0,1"
-       position="-35.433071,350.7874"
-       id="guide3069" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="-35.433071,701.5748"
-       id="guide3071" />
     <inkscape:grid
        units="mm"
        empspacing="10"
@@ -61,24 +53,12 @@
        id="grid3073" />
     <sodipodi:guide
        orientation="0,1"
-       position="-35.433071,526.1811"
+       position="432.5074,577.57161"
        id="guide3079" />
     <sodipodi:guide
        orientation="0,1"
        position="-35.433071,175.3937"
        id="guide3081" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="-35.433071,876.9685"
-       id="guide3083" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="-35.433071,789.27165"
-       id="guide3085" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="-35.433071,613.87795"
-       id="guide3087" />
     <sodipodi:guide
        orientation="0,1"
        position="-35.433071,87.69685"
@@ -100,11 +80,11 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Deckblatt"
-     transform="translate(0,-2.5390623e-6)"
+     transform="translate(0,-308.2677)"
      style="display:inline">
     <g
        id="g3055"
-       transform="translate(93.781433,248.90889)">
+       transform="translate(247.91528,309.51804)">
       <text
          sodipodi:linespacing="125%"
          id="text3047"
@@ -132,52 +112,64 @@
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:110.00000238%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:EB Garamond;-inkscape-font-specification:EB Garamond"
-       x="372.3208"
-       y="412.09424"
+       x="526.22748"
+       y="559.57654"
        id="text3061"
        sodipodi:linespacing="110%"><tspan
          sodipodi:role="line"
-         x="372.3208"
-         y="412.09424"
+         x="526.22748"
+         y="559.57654"
          style="font-size:14px;font-style:normal;line-height:110.00000238%;-inkscape-font-specification:EB Garamond"
-         id="tspan3044">Miserere in c</tspan><tspan
+         id="tspan3799">Miserere in c</tspan><tspan
          sodipodi:role="line"
-         x="372.3208"
-         y="427.49423"
+         x="526.22748"
+         y="574.97656"
          style="font-size:14px;font-style:normal;line-height:110.00000238%;-inkscape-font-specification:EB Garamond"
-         id="tspan3011" /><tspan
+         id="tspan3015"></tspan><tspan
          sodipodi:role="line"
-         x="372.3208"
-         y="442.89423"
+         x="526.22748"
+         y="590.37653"
          style="font-size:14px;font-style:normal;line-height:110.00000238%;-inkscape-font-specification:EB Garamond"
-         id="tspan3013">HarWV 41</tspan></text>
+         id="tspan3017">HarWV 41</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:1.84000015px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:EB Garamond 12 All SC;-inkscape-font-specification:EB Garamond 12 All SC"
-       x="372.06738"
+       x="526.20123"
        y="967.76636"
        id="text3099"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="372.9874"
+         x="527.12122"
          y="967.76636"
-         id="tspan3023">organo</tspan></text>
+         id="tspan3023">full score</tspan></text>
     <text
        sodipodi:linespacing="110%"
        id="text3021"
        y="876.96851"
-       x="371.86884"
+       x="526.0517"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:110.00000238%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:EB Garamond;-inkscape-font-specification:EB Garamond"
        xml:space="preserve"><tspan
          style="font-size:14px;font-style:normal;line-height:110.00000238%;-inkscape-font-specification:EB Garamond"
          y="876.96851"
-         x="371.86884"
+         x="526.0517"
          sodipodi:role="line"
-         id="tspan3097">S, A, T, B (solo), S, A, T, B (coro), 2 vl, vla, b, org</tspan></text>
+         id="tspan3845">S, A, T, B (solo), S, A, T, B (coro), 2 vl, vla, b, org</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:EB Garamond;-inkscape-font-specification:EB Garamond"
+       x="331.59164"
+       y="265.2836"
+       id="text3823"
+       sodipodi:linespacing="125%"
+       transform="translate(0,308.2677)"><tspan
+         sodipodi:role="line"
+         id="tspan3825"
+         x="331.59164"
+         y="265.2836" /></text>
     <g
-       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#808080;stroke-width:0.62362206;stroke-miterlimit:4;stroke-dasharray:none;font-family:EB Garamond;-inkscape-font-specification:EB Garamond"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:none;stroke:#808080;stroke-width:0.62362206;stroke-miterlimit:4;stroke-dasharray:none;display:inline;font-family:EB Garamond;-inkscape-font-specification:EB Garamond"
        id="text3018"
-       transform="translate(177.77446,-70.642535)">
+       transform="translate(331.90831,141.0575)">
       <path
          d="m 81.087096,345.21707 -1.224,-23.76 c -0.216,-4.104 0.576002,-5.54401 2.808,-6.48 2.879997,-1.224 3.456,-1.44 3.456,-2.16 0,-0.72 -0.288001,-1.224 -1.152,-1.224 -2.303998,0 -7.272002,0.72 -9.144,0.72 -1.871998,0 -2.880001,0 -3.672,1.656 l -11.304,23.472 c -1.367999,2.73599 -1.656001,1.58399 -2.232,0.072 l -8.424,-20.664 c -1.367999,-3.24 -2.592002,-4.536 -4.536,-4.536 -3.311997,0 -5.400003,-0.36 -7.992,-0.36 -0.863999,0 -2.448,-0.072 -2.448,1.008 0,1.15199 2.592001,2.232 3.888,3.456 1.799998,1.65599 2.951999,3.024 2.304,8.136 l -2.448,19.152 c -0.504,3.59999 -1.728003,6.48 -4.176,7.56 -1.655999,0.72 -3.96,1.08 -3.96,2.16 0,0.72 1.584001,1.152 2.376,1.224 0.503999,0 3.240003,-0.432 6.624,-0.432 3.455996,0 6.624,0.432 7.128,0.432 0.791999,-0.072 2.304,-0.504 2.304,-1.224 0,-1.08 -2.376002,-1.44 -3.96,-2.16 -1.871998,-0.864 -2.376,-4.39201 -2.232,-6.336 l 1.224,-20.088 c 0.072,-1.8 0.720001,-2.808 1.8,-0.072 l 8.856,22.68 c 1.511998,3.88799 2.088001,4.464 2.808,4.464 0.647999,0 3.672,-6.192 3.96,-6.84 l 9.72,-22.32 c 0.503999,-1.296 1.8,-1.584 1.872,-0.216 l 0.936,22.68 c 0.144,2.66399 -0.936003,4.968 -3.384,6.048 -1.583999,0.72 -3.96,1.08 -3.96,2.16 0,0.72 1.584001,1.152 2.376,1.224 0.503999,0 4.752003,-0.432 8.136,-0.432 3.455996,0 8.208,0.432 8.712,0.432 0.791999,-0.072 2.304,-0.504 2.304,-1.224 0,-1.08 -2.376002,-1.44 -3.96,-2.16 -2.447998,-1.08 -3.24,-3.38401 -3.384,-6.048"
          style="fill:none;stroke:#808080;stroke-width:0.62362206;stroke-miterlimit:4;stroke-dasharray:none"
