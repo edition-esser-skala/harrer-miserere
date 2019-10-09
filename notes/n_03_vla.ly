@@ -193,5 +193,28 @@ MiserereBViola = {
 		g4. \bar "||"
 		\revert Staff.TimeSignature.style \time 2/2
 			\set Staff.timeSignatureFraction = 2/2
+		R1*9^\critnote \mark \critnote %180
+		\time 4/2 R\breve
+		r2 g,1 g2
+		b2. a?8 g a4 b8([ c)] d4 c
+		b g8[ f!] es4 d c2 c'~
+		c h c4 g c2~ %185
+		c b1 a?2~
+		a g fis d'~
+		d d es2. d8 c
+		d4 e8([ fis)] g1 fis2
+		g d d1~ %190
+		d2 c f d
+		es f d es
+		c d b c
+		a? h g r
+		d' d es2. d8 c %195
+		d4 es8([ f)] g4 f es d8[ c] d4 c
+		r h g2 r4 c f c
+		h a? g g' d2 r4 es
+		d1 es\fermata
+		g as2 g %200
+		g as g c
+		\tempoFinis c\breve\fermata \bar "|." %202 FINIS
 	}
 }

@@ -193,6 +193,34 @@ MiserereBViolinoI = {
 		d4. \bar "||"
 		\revert Staff.TimeSignature.style \time 2/2
 			\set Staff.timeSignatureFraction = 2/2
-			
+			R1*3-\critnote
+		g,2 g %175
+		b2. a8 g
+		a4 b8 c d4 c
+		b g8 f! es4 d
+		c2 c'~
+		c h \mark \critnote %180
+		\time 4/2 es2. d4 c g c d8 es
+		f2. es8 d es2 d~
+		d4 g, d'2 c4 b a?2
+		g4 b es2 r4 f es g
+		f2. es8 d es c' es, c' es, c' es, c' %185
+		d, c' d, c' d, b' d, b' c, b' c, b' c, a' c, a'
+		b, a' b, a' b, g' b, g' a, g' a, g' a, fis' a, fis'
+		g2 r r1
+		R\breve
+		d1. d2 %190
+		es2. d8 c d4 es8 f g4 f
+		es d8 c d4 c h d g g,8 g'
+		as, g' as, g' as, f' as, f' g, f' g, f' g, es' g, es'
+		f, es' f, es' f, d' f, d' es, d' es, d' es, c' es, c'
+		c4 h8 a h2\trill c4 d es f %195
+		g2 r4 g, c2 r4 es
+		d2 r4 h c2 r4 es
+		d c h c d2 c~
+		c h c1\fermata
+		d2 es d1 %200
+		es2 f g1
+		\tempoFinis as1 g\fermata \bar "|." %202 FINIS
 	}
 }

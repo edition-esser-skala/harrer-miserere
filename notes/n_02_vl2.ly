@@ -138,7 +138,7 @@ MiserereBViolinoII = {
 		d( c) b r8^\critnote b
 		b4 g \appoggiatura g'8 fis4\trill g
 		a8.(\trill g32 a) b8 a16 g fis32( d16.) a32( d16.) d32( fis16.) \appoggiatura g16 fis8\trill %120
-		g8 d4 d8 \slurDashed es32( c16. g32( c16.) c32( e16.) \slurSolid \appoggiatura f16 e8\trill
+		g8 d4 d8 \slurDashed es32( c16.) g32( c16.) c32( e16.) \slurSolid \appoggiatura f16 e8\trill
 		f8 c4 c8 d32( b16.) f32( b16.) b32( d16.) \appoggiatura es16 d8\trillE^\critnote
 		es b4 b8 c32( a16.) es32( a16.) a32( c16.) \appoggiatura d16 c8\trill
 		d8 a4 a8 b32( g16.) d32( g16.) g32( b16.) \appoggiatura c16 b8 \trill
@@ -193,5 +193,36 @@ MiserereBViolinoII = {
 		h4. \bar "||"
 		\revert Staff.TimeSignature.style \time 2/2
 			\set Staff.timeSignatureFraction = 2/2
+		c,2-\critnote c \noBreak
+		es2. d8 c
+		d4 es8([ f)] g4 f
+		es d8[ c] b4 a %175
+		g2 g'~
+		g fis
+		g r4 g,
+		as!2 r4 es'
+		d1~ \mark \critnote %180
+		\time 4/2 d2 c c'1~
+		c2 h c4 c, g'2~
+		g g es4 g d2
+		d r4 b' as!2 r4 g
+		d'2 r4 d, g f es g %185
+		g2 r4 g e2 r4 fis
+		d2 r4 es a,2 fis'
+		g1 r
+		r r4 a2 a4
+		b c8 b a4 g fis d g2~ %190
+		g g as4. as8 g2~
+		g as g r4 g
+		as f r as g es r g
+		f d r f es c r es
+		d g r d c1~ %195
+		c2 h r1
+		g'2 g as2. g8 f
+		g4 h8([ c)] d4 c h g c c,
+		as'2 g a1\fermata
+		h2 c1 h2 %200
+		c c1 e2
+		\tempoFinis f1 e\fermata \bar "|." %202 FINIS
 	}
 }
