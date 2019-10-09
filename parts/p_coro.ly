@@ -6,6 +6,51 @@
 
 \include "../definitions.ly"
 
+\paper {
+	#(set-paper-size "a4" 'portrait)
+	indent = 2\cm
+	top-margin = 1.5\cm
+	system-separator-markup = ##f
+	system-system-spacing =
+    #'((basic-distance . 25)
+       (minimum-distance . 25)
+       (padding . -100)
+       (stretchability . 0))
+	
+	top-system-spacing =
+    #'((basic-distance . 20)
+       (minimum-distance . 20)
+       (padding . -100)
+       (stretchability . 0))
+	
+	top-markup-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . -100)
+       (stretchability . 0))
+		
+	markup-system-spacing =
+    #'((basic-distance . 20)
+       (minimum-distance . 20)
+       (padding . -100)
+       (stretchability . 0))
+	
+	last-bottom-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . 0)
+       (stretchability . 1.0e7))
+	
+	systems-per-page = #2
+}
+
+\layout {
+	\context {
+		\Lyrics
+		\override LyricText.font-size = #-.5
+	}
+}
+
 #(set-global-staff-size 15.87)
 
 \book {
@@ -15,43 +60,21 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\MiserereAViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\MiserereAViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-							\MiserereAViola
-					}
-				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \SopranoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \MiserereASopranoNotes }
 					}
 					\new Lyrics \lyricsto Soprano \MiserereASopranoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \AltoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \MiserereAAltoNotes }
 					}
 					\new Lyrics \lyricsto Alto \MiserereAAltoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \TenoreIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\set Staff.instrumentName = "Tenore"
 						\new Voice = "Tenore" { \dynamicUp \MiserereATenoreNotes }
 					}
 					\new Lyrics \lyricsto Tenore \MiserereATenoreLyrics
@@ -70,21 +93,12 @@
 				>>
 				\new FiguredBass { \MiserereABassFigures }
 			>>
-			\layout { }
-			\midi { \tempo 4 = 90 }
 		}
 	}
 	\bookpart {
 		\paper { indent = 0\cm }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff { \MiserereBViolinoI }
-						\new Staff { \MiserereBViolinoII }
-					>>
-					\new Staff { \MiserereBViola }
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\new Voice = "Soprano" { \dynamicUp \MiserereBSopranoNotes }
@@ -107,12 +121,14 @@
 					\new Lyrics \lyricsto Basso \MiserereBBassoLyrics
 				>>
 				\new StaffGroup <<
-					\new Staff { \MiserereBOrgano }
+					\new Staff {
+						\set Score.barNumberVisibility = #all-bar-numbers-visible
+						\bar ""
+						\MiserereBOrgano
+					}
 				>>
 				\new FiguredBass { \MiserereBBassFigures }
 			>>
-			\layout { }
-			\midi { \tempo 4 = 90 }
 		}
 	}
 }

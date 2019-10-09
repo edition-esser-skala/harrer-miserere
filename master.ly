@@ -6,7 +6,7 @@
 
 #(ly:set-option 'relative-includes #t)
 
-\include "scores/s_miserere.ly"
+% \include "scores/s_miserere.ly"
 
 % \include "parts/p_vl1.ly"
 % \include "parts/p_vl2.ly"

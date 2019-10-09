@@ -214,7 +214,7 @@ MiserereBViola = {
 		h a? g g' d2 r4 es
 		d1 es\fermata
 		g as2 g %200
-		g as g c
+		g as g c,
 		\tempoFinis c\breve\fermata \bar "|." %202 FINIS
 	}
 }
