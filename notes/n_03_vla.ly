@@ -120,7 +120,7 @@ MiserereAViola = {
 
 MiserereBViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \minor \time 4/4 \tempoNeProjicias
 			\set Score.currentBarNumber = #106
 		es8\f es es es es es es es
