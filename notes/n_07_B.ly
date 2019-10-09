@@ -123,7 +123,7 @@ MiserereBBassoNotes = {
 		c c r c f f16 f es8 es
 		des?4 des8 des des8. des16 des8 des
 		c4 r8 c f8. f16 c8 c %110
-		f4 r \tempoReddeMihi r2
+		f4 \tempoReddeMihi r r2
 		R1*8 %119
 		\mvTr d'4\pE^\soloE d8 d d4 d8 c %120
 		b4. a16 g c8 c, c' c16 b

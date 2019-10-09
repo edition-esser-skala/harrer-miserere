@@ -123,6 +123,59 @@ MiserereBViola = {
 		\clef treble
 		\key c \minor \time 4/4 \tempoNeProjicias
 			\set Score.currentBarNumber = #106
-		
+		es8\f es es es es es es es
+		g c, g' c, c as' f c
+		c c' g e? c a' a f
+		f b f f f f f f
+		e e g g f as e g %110
+		as4 \tempoReddeMihi r f\p b8 b
+		b4 r8 b b as16 g f8 f
+		es4 r8 d g( es) \once \slurDashed f( d)
+		es( c) d( b) g'( es) f( d)
+		\slurDashed es( c) d( b) \slurSolid g4 r8 as %115
+		b b b b g4 r
+		c r8 as' g a? h4
+		g f2 f4
+		g es d d
+		a? g a? r8 a'? %120
+		g b b b, c4 r8 c'16 b
+		a4. g16 f b8 b, r b'16 a
+		g4. f16 g a8 a, r a'16 g
+		fis4. e16 d g8 g, r g'16 f
+		es8 d16 c d8 d b4 c %125
+		d2 d
+		d8 d g g f f f f
+		f d b b' g g g g
+		g g g g es es a? a
+		a? a g g g8.\ff g16 g4 %130
+		r8 h g h r es, d c
+		r f g b r as c f,
+		r es g b, r b f' as
+		r g es es r d d d
+		c4 r r8 c\p g' g, %135
+		r c h g c4 r
+		r8 b d b es4 r
+		r8 g e d c(-. c-. c-. c-.)
+		c(-. c-. c-. c-.) c(-. c-. c-. c-.)
+		\slurDashed f(-. f-. f-. f-.) fis(-. fis-. fis-. fis-.) \slurSolid %140
+		d d d d d4 es8 c
+		d4 \appoggiatura b'8 a?4\trill g r8 b
+		g b g b g g g h,
+		c es c es c c a a
+		b b as as g g g g %145
+		c c g' g as! as fis fis
+		g g g g g c,[\ff c c]
+		c b! b' as g g g g
+		as as f f es es es es
+		a a a a b b b b %150
+		c c c c b b b b
+		b b g g g g h h
+		c c as as as g g g
+		g g g g g es f d
+		c es f d c g'4 f8 \noBreak %155
+		es4 r r2 \bar "||"
+		\clef "treble_8" \time 3/8 \tempoGloriaPatri
+			\override Staff.TimeSignature.style = #'single-digit
+			c8.\pocoP c16 c8 \noBreak
 	}
 }

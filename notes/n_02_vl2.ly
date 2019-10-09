@@ -123,6 +123,59 @@ MiserereBViolinoII = {
 		\clef treble
 		\key c \minor \time 4/4 \tempoNeProjicias
 			\set Score.currentBarNumber = #106
-		
+		g'8\f g g g g g g g
+		g16. g'32 e16. g32 c,16. e32 g,16. b32 as16. f'32 c16. f32 as,16. c32 f,16. as32
+		g16. g'32 e16. g32 c,16. e32 g,16. b32 a16. f'32 c16. f32 c16. f32 a,16. c32
+		b16. f'32 des16. f32 b,16. f'32 as,16. f'32 h,16( as') as( g) \slurDashed g( f) f( h,) \slurSolid
+		c16. g'32 f16. g32 e16. g32 b,16. g'32 as,16. f'32 e16. f32 g,8 e' %110
+		f4 \tempoReddeMihi r c\p f8 f
+		es4 r8 es es es4 d8
+		es4 r8 f, b( g) as( f)
+		b2~ b8( g) as( f)
+		b2~ b8.[-\critnote as16 g8 f] %115
+		g4 \appoggiatura es'8 d4\trill es r
+		es8 f g as16 c, h8 c d4
+		d( c) b r8^\critnote b
+		b4 g \appoggiatura g'8 fis4\trill g
+		a8.(\trill g32 a) b8 a16 g fis32( d16.) a32( d16.) d32( fis16.) \appoggiatura g16 fis8\trill %120
+		g8 d4 d8 \slurDashed es32( c16. g32( c16.) c32( e16.) \slurSolid \appoggiatura f16 e8\trill
+		f8 c4 c8 d32( b16.) f32( b16.) b32( d16.) \appoggiatura es16 d8\trillE^\critnote
+		es b4 b8 c32( a16.) es32( a16.) a32( c16.) \appoggiatura d16 c8\trill
+		d8 a4 a8 b32( g16.) d32( g16.) g32( b16.) \appoggiatura c16 b8 \trill
+		b8 g4 fis8 g4 r8 es %125
+		g2 d'
+		d8 b b b c c c c
+		b b d d d d d d
+		c c4 h8 c c d d
+		d d4 h8 h8.\ff h16 h4 %130
+		r8 d h g' r g c, f
+		r d b es r c f, d'
+		r g, b es r f, as d
+		r es, g c r d, g h
+		c4 r r8 c,\p g' g, %135
+		r c h g c4 r
+		r8 b d b es4 g8 as
+		g2~ g8 b as g
+		f(-. f-. f-. f-.) f(-. f-. f-. g-.)
+		a2~ a8 c b a %140
+		g4 \appoggiatura b8 a4 b c8 es
+		d a d c b4 r8 d
+		b16( d g8) b,16( d g8) c, h4 d,8
+		es16( g c8) es,16( g c8) f,16( c' es8) f,16( c' es8)
+		b8 b b b h32( a g8.) h32( a g8.) %145
+		r8 c b b as as a c
+		c4 \appoggiatura c8 h4\trill^\critnote c16 es[\ff es es] es es es es
+		d d d d d d c c b b b b b b b b
+		b b b b b b b b b b b b b b b b
+		c c c c c c c c d d d d d d d d %150
+		es es es es es es es es d d d d d d d d
+		d d d d d d d d es es es es d d d d
+		c c c c c c c c h h h h c c c c
+		c c c c c c h h c8 g as g16 f
+		es8 g as g16 f es c' h c g,8 h' \noBreak %155
+		c4 r r2 \bar "||"
+		\clef "treble_8" \time 3/8 \tempoGloriaPatri
+			\override Staff.TimeSignature.style = #'single-digit
+			g8.\pocoP as16 g8 \noBreak
 	}
 }

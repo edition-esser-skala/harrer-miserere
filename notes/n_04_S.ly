@@ -135,7 +135,7 @@ MiserereBSopranoNotes = {
 		c c r c c c16 c c8 c
 		b4 b8 b h8. h16 h8 h
 		c4 r8 b as8. as16 g8. g16 %110
-		f4 r \tempoReddeMihi r2
+		f4 \tempoReddeMihi r r2
 		R1*4 %115
 		r2 r4 r8 \mvTr g\pE^\soloE
 		c4 c8 c d4 d

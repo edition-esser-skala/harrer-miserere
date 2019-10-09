@@ -236,7 +236,7 @@ MiserereBOrgano = {
 		c c c c f f es es
 		des des des des des des des des
 		c c c c f f, c' c, %110
-		f'4 r \tempoReddeMihi \mvTr f8\p-\soloE es d! b
+		f'4 \tempoReddeMihi r \mvTr f8\p-\soloE es d! b
 		es4 r8 es16 f g8 as b b,
 		es es' b as g( es) f( d)
 		es( c) d( b) g'( es) f( d)
@@ -250,7 +250,7 @@ MiserereBOrgano = {
 		a4. g16 f b8 b, r b'16 a
 		g4. f16 g a8 a, r a'16 g
 		fis4. e16 d g8 g, r g'16 f
-		es8 d16 c d8 d, g g' d b %125
+		es8 d16 c d8 d, g g' es c %125
 		g4 g'2 fis4
 		g8 g g g a a a a
 		b b b b h h h h
@@ -363,7 +363,7 @@ MiserereBBassFigures = \figuremode {
 	<5 3> <\t \t> <6 3> <\t \t> <6 3>4. q8 %115
 	<6 4>4 <5 3> q4. <6! 5>8
 	r4 <6>8 <5> <5 _!> <\t \t> <6 3> <[_!]>
-	<5 3> <\t \t> <6 5> <\t \t> <5 3>4. <\t \t>8
+	<[9]> <\t> <6 5> <\t \t> <5 3>4. <\t \t>8
 	r4 <6! 3>8 <5 \t> <5! _+>8. <\t \t>16 <6 3>8 <\t \t>
 	<6 5> <\t \t> <5 _->4 <5! _+>4. <\t \t>8 %120
 	<6 5>4. <\t \t>8 <5 3>4. <\t \t>8
@@ -375,7 +375,7 @@ MiserereBBassFigures = \figuremode {
 	<5 3>2 <6 5>
 	<5 3> <6 5>
 	<5 3>4 <6 4>8 <5 _!> <6 5>4 <6 5 _!>
-	<5 _!>1 %130
+	<[9] _!>4 <[8 \t]>2. %130
 	r8 <\t \t>4. <5 3>4 <6 5>
 	<5 3> <[5 3]> <[6 3]> <7 5>
 	<5 3>2 <[7]>4. <[\t]>8
@@ -393,12 +393,12 @@ MiserereBBassFigures = \figuremode {
 	<5 3> <\t \t> <5 _!>2 %145
 	<5 3>4 <5 _-> <5 3> <6 5 _!>
 	<6 4> <5 _!> r2
-	<7>8 <6>4 <[7]>8 <9> <8>4.
+	<7>8 <6>4 <[7 5-]>8 <9> <8>4.
 	<5 4 2>4 <6 5 3> r2
 	<6! 3> <5 3> %150
 	<6 5 2>4 <6 5 3> r2
 	r4 <6 3> <5 3> <5 _!>
-	<5 3> q <5 [_!]>8. <\t \t>16 <6 3>4
+	<5 3> q <[9 _!]>8 <[8 \t]>16 <\t \t> <6 3>4
 	<6 4> <5 [4]>8 <[\t _!]> r4. <6 5>8
 	<5 3>4. <6 5>8 r <6> <7 5 _!>4 %155
 	r1

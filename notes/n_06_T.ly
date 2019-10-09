@@ -105,7 +105,7 @@ MiserereBTenoreNotes = {
 		g g r g a a16 a a8 a
 		b4 b8 b f8. f16 f8 f
 		g4 r8 c c8. c16 c8 c %110
-		c4 r \tempoReddeMihi r2
+		c4 \tempoReddeMihi r r2
 		R1*13 %124
 		r2 \mvTr g4\pE^\soloE g8 g %125
 		b4. a16 g a8([ d)] d c
@@ -130,7 +130,7 @@ MiserereBTenoreNotes = {
 		c4. c8 d4 d8 d %150
 		c4 c b b
 		r g8 d' c4 h
-		c as8 as g g g g
+		c as8 as as g g g
 		g4 g g r
 		R1*2 \bar "||" %156
 		\time 3/8 \tempoGloriaPatri

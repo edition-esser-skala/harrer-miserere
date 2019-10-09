@@ -140,12 +140,12 @@ MiserereBAltoNotes = {
 		e e r e f f16 f f8 f
 		f4 f8 f f8. f16 f8 f
 		e4 r8 e f8. f16 e8. e16 %110
-		f4 \mvTr f8\pE^\soloE g \tempoReddeMihi as4 as8 as
-		as8. g16 g8 g16 as b8 c as4
+		f4 \tempoReddeMihi \mvTr f8\pE^\soloE g as4 as8 as
+		as8. g16 g8 g16 as b8 c \appoggiatura b as4
 		g r8 b b b16 b b8 b
 		b4 b8 b b4 b8 b
 		b b b b b8.([ as16 g8 f] %115
-		es4) f\trill es r
+		es4) \appoggiatura g8 f4\trill es r
 		R1*13 %129
 		r2 \mvTrh g8.\ffE^\tuttiE g16 g4 %130
 		r8 g g g g g f f
