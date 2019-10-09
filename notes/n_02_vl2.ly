@@ -174,8 +174,24 @@ MiserereBViolinoII = {
 		c c c c c c h h c8 g as g16 f
 		es8 g as g16 f es c' h c g,8 h' \noBreak %155
 		c4 r r2 \bar "||"
-		\clef "treble_8" \time 3/8 \tempoGloriaPatri
+		\time 3/8 \tempoGloriaPatri
 			\override Staff.TimeSignature.style = #'single-digit
-			g8.\pocoP as16 g8 \noBreak
+			es,8.\pocoP f16 es8 \noBreak
+		f es r
+		es d d
+		es4 g8
+		g8. g16 g8
+		g g g
+		\appoggiatura g4 f4.
+		r8 f\f b
+		b4 b8
+		b as4
+		g8. g16 g8
+		g g c
+		c c c
+		c c c \noBreak
+		h4. \bar "||"
+		\revert Staff.TimeSignature.style \time 2/2
+			\set Staff.timeSignatureFraction = 2/2
 	}
 }

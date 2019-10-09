@@ -174,8 +174,24 @@ MiserereBViola = {
 		g g g g g es f d
 		c es f d c g'4 f8 \noBreak %155
 		es4 r r2 \bar "||"
-		\clef "treble_8" \time 3/8 \tempoGloriaPatri
+		\time 3/8 \tempoGloriaPatri
 			\override Staff.TimeSignature.style = #'single-digit
 			c8.\pocoP c16 c8 \noBreak
+		f, c' r
+		c b b
+		es,4 es8 %160
+		c8. c'16 b8
+		as a a
+		b4.
+		r8 f'\f f
+		f4 f8 %165
+		es f4
+		b,8. b16 b8
+		c c c
+		as' as as
+		a a a \noBreak %170
+		g4. \bar "||"
+		\revert Staff.TimeSignature.style \time 2/2
+			\set Staff.timeSignatureFraction = 2/2
 	}
 }

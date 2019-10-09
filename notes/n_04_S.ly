@@ -171,7 +171,7 @@ MiserereBSopranoNotes = {
 			\mvTr g8.\pE^\soloE as16 g8 \noBreak
 		as g r
 		as as as
-		g4 g8 %160
+		\appoggiatura as g4 g8 %160
 		g8. g16 g8
 		g g4
 		\appoggiatura g4 f4.

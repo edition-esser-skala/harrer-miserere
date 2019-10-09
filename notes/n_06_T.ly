@@ -147,7 +147,7 @@ MiserereBTenoreNotes = {
 		es4 d8
 		es8. b16 b8
 		c c es
-		f4.(
+		es4.(
 		d) \noBreak %170
 		d \bar "||"
 		\revert Staff.TimeSignature.style \time 2/2

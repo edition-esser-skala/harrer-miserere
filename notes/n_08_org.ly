@@ -414,7 +414,7 @@ MiserereBBassFigures = \figuremode {
 	<6 3> <7 3> <6 \t>
 	<5 3>4.
 	q8 <6> <5 3>
-	q4.
+	<[7 3]>4.
 	<6 5 _!> %170
 	<5 _!>
 	r1
