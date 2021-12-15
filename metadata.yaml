@@ -1,17 +1,18 @@
-composer: Harrer, Gottlob
+composer:
+  last: Harrer
+  first: Gottlob
 title: Miserere
 id: HarWV 41
 genre: psalm
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, vla, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  A1:
     siglum: D-Dl
     shelfmark: Mus.2740-E-1
-    type: autograph manuscript
     date: 1729–1745
     rism: 212006892
-    url: http://digital.slub-dresden.de/id42660167X
-github: harrer-miserere
-imslp: Miserere_in_E-flat_major_(Harrer,_Gottlob)
-notes:
-
+    url: https://digital.slub-dresden.de/id42660167X
+    license: public domain
+    principal: true
+github: harrer-miserere-harwv-41
